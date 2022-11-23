@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: #00283d;
+}
+
+#hero {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/graduation.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    text-align: center;
+    text-shadow: 0 0 3px whitesmoke;
+}
+
+.opaque-box {
+    background-color: rgba(245, 245, 245, 0.781);
+    padding: 10px 30px;
+}
+
+.title-txt {
+    font-size: 50px;
+    margin: 10px 0 0px 0;
+    text-shadow: 1px 1px 1px #fca463;
+}
+
+.subtitle-txt {
+    font-size: 20px;
+    margin: 0px 0 15px 0;
+    color: #fca463;
+}
+
+#information {
+    display: flex; 
+    justify-content: center;
+    padding: 30px;
+    margin: 0px auto;
+    background-color: #ebe6e7;
+
+}
+
+#henry1-img {
+    width: 500px;
+    object-fit: cover;
+}
+
+.information-box {
+    padding: 30px;
+    width: 200px;
+    background-color: whitesmoke;
+    text-align: right;
+}
+
+.info-identifier-txt {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+.info-specifics-txt {
+    font-weight: normal;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+
+.event-schedule-container {
+    padding: 30px 10px;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    background-color: whitesmoke;
+    border-top: 10px solid #00283d;
+    border-bottom: 10px solid #00283d;
+}
+
+.event-schedule {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+}
+
+.heading1 {
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+
+.time-txt {
+    padding: 0 15px;
+    border-right: 1px solid black;
+    text-align: end;
+}
+
+.event-txt {
+    padding: 0 15px;
+    text-align: start;
+}
